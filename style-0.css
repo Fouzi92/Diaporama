@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+main {
+  width: 80%;
+  margin: auto;
+}
+
+.dispo {
+  position: relative;
+  overflow: hidden;
+}
+
+#nav-droite,
+#nav-gauche {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 3em;
+}
+
+#nav-gauche {
+  left: 20px;
+}
+
+#nav-droite {
+  right: 20px;
+}
+
+.elements {
+  display: flex;
+}
+
+.element {
+  flex: 1 0 100%;
+}
+
+.element > img {
+  width: 100%;
+}
