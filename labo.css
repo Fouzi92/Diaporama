@@ -1,6 +1,7 @@
 body {
   margin: 0;
 }
+
 main {
   width: 80%;
   margin: auto;
@@ -20,12 +21,11 @@ main {
   font-size: 3em;
 }
 
-#nav-gauche {
-  left: 20px;
-}
-
 #nav-droite {
   right: 20px;
+}
+#nav-gauche {
+  left: 20px;
 }
 
 .elements {
